@@ -1,0 +1,5 @@
+
+*.cache
+*.lock
+*.vsidx
+*.sqlite
