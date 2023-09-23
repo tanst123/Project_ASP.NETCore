@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETCore.WebApp", "ASP.NETCore-Project\ASP.NETCore.WebApp.csproj", "{913ECF24-1ABC-4C21-88CE-46F35BFFD623}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETCore.Application", "ASP.NETCore.Application\ASP.NETCore.Application.csproj", "{6ACD828A-0329-4CE6-AE3B-E02D482B4456}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETCore.Data", "ASP.NETCore.Data\ASP.NETCore.Data.csproj", "{892F73E2-3620-4779-BB02-E05B165F622C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolotionItem", "SolotionItem", "{FAA547FC-3964-4C42-9221-41F74AED4C20}"
@@ -14,24 +10,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolotionItem", "SolotionIte
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETCore.WepApi", "ASP.NETCore.WepApi\ASP.NETCore.WepApi.csproj", "{E1C235C0-A4CE-49AC-9EAB-8DD47BEE6994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETCore.Applications", "ASP.NETCore.Applications\ASP.NETCore.Applications.csproj", "{35C8FCA7-2DA5-4FCE-AEBF-F392ECBD5684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{913ECF24-1ABC-4C21-88CE-46F35BFFD623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{913ECF24-1ABC-4C21-88CE-46F35BFFD623}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{913ECF24-1ABC-4C21-88CE-46F35BFFD623}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{913ECF24-1ABC-4C21-88CE-46F35BFFD623}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6ACD828A-0329-4CE6-AE3B-E02D482B4456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6ACD828A-0329-4CE6-AE3B-E02D482B4456}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6ACD828A-0329-4CE6-AE3B-E02D482B4456}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6ACD828A-0329-4CE6-AE3B-E02D482B4456}.Release|Any CPU.Build.0 = Release|Any CPU
 		{892F73E2-3620-4779-BB02-E05B165F622C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{892F73E2-3620-4779-BB02-E05B165F622C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{892F73E2-3620-4779-BB02-E05B165F622C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{892F73E2-3620-4779-BB02-E05B165F622C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C235C0-A4CE-49AC-9EAB-8DD47BEE6994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C235C0-A4CE-49AC-9EAB-8DD47BEE6994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C235C0-A4CE-49AC-9EAB-8DD47BEE6994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C235C0-A4CE-49AC-9EAB-8DD47BEE6994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C8FCA7-2DA5-4FCE-AEBF-F392ECBD5684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C8FCA7-2DA5-4FCE-AEBF-F392ECBD5684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C8FCA7-2DA5-4FCE-AEBF-F392ECBD5684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C8FCA7-2DA5-4FCE-AEBF-F392ECBD5684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
