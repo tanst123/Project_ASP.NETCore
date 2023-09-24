@@ -1,5 +1,6 @@
 ﻿using ASP.NETCore.Data.Configurations;
 using ASP.NETCore.Data.Entites;
+using ASP.NETCore.Data.Extensions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -28,6 +29,8 @@ namespace ASP.NETCore.Data.EF
             modelBuilder.ApplyConfiguration(new PromotionConfiguration());
             modelBuilder.ApplyConfiguration(new TransactionConfiguration());
 
+            // Data Seeding
+            modelBuilder.Seed();
             // base.OnModelCreating(modelBuilder);
         }
 
