@@ -22,6 +22,8 @@ namespace ASP.NETCore.Data.Configurations
             builder.Property(x => x.Amount).HasPrecision(18, 4);
             builder.Property(x => x.Fee).HasPrecision(18, 4);
 
+            builder.HasOne(x => x.AppUser).WithMany(x => x.Transactions).HasForeignKey(x => x.UserId);
+
         }
     }
 }
