@@ -20,5 +20,6 @@ namespace ASP.NETCore.Data.Entites
 
         public List<OrderDetail> OrderDetails { get;set;}
 
+        public AppUser AppUser { get;set;}
     }
 }
