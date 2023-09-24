@@ -16,7 +16,8 @@ namespace ASP.NETCore.Data.Configurations
             builder.ToTable("OrderDetails");
 
             builder.HasKey(x => new {x.OrderId, x.ProductId});
-
+            builder.Property(x => x.Price).HasPrecision(18, 4);
+            builder.Property(x => x.Price).HasPrecision(18, 4);
             builder.HasOne(x => x.Order).WithMany(x => x.OrderDetails).HasForeignKey(x => x.OrderId);
             builder.HasOne(x => x.Product).WithMany(x => x.OrderDetails).HasForeignKey(x => x.ProductId);
         }
