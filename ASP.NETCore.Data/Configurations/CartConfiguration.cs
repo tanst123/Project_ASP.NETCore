@@ -1,5 +1,4 @@
 ﻿using ASP.NETCore.Data.Entites;
-using ASP.NETCore.Data.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -10,14 +9,15 @@ using System.Threading.Tasks;
 
 namespace ASP.NETCore.Data.Configurations
 {
-    public class CategoryConfiguration : IEntityTypeConfiguration<Category>
+    public class CartConfiguration : IEntityTypeConfiguration<Cart>
     {
-        public void Configure(EntityTypeBuilder<Category> builder)
+        public void Configure(EntityTypeBuilder<Cart> builder)
         {
-            builder.ToTable("Categories");
+            builder.ToTable("Carts");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
-            builder.Property(x => x.Status).HasDefaultValue(StatusEnum.Active);
+            builder.Property(x => x.Price).HasPrecision(18, 4);
+            builder.HasOne(x => x.Product).WithMany(x => x.Carts).HasForeignKey(x => x.ProductId);
         }
     }
 }

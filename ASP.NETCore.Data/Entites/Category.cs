@@ -17,5 +17,6 @@ namespace ASP.NETCore.Data.Entites
         public StatusEnum Status { get; set; }
 
         public List<ProductInCategory> ProductInCategories { get; set;}
+        public List<CategoryTranslation> CategoryTranslations { get; set;}
     }
 }
