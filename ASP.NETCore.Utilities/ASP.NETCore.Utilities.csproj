@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ASP.NETCore.Data\ASP.NETCore.Data.csproj" />
-  </ItemGroup>
-
 </Project>

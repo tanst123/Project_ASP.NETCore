@@ -10,9 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolotionItem", "SolotionIte
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETCore.WepApi", "ASP.NETCore.WepApi\ASP.NETCore.WepApi.csproj", "{E1C235C0-A4CE-49AC-9EAB-8DD47BEE6994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETCore.WepApi", "ASP.NETCore.WepApi\ASP.NETCore.WepApi.csproj", "{E1C235C0-A4CE-49AC-9EAB-8DD47BEE6994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETCore.Applications", "ASP.NETCore.Applications\ASP.NETCore.Applications.csproj", "{35C8FCA7-2DA5-4FCE-AEBF-F392ECBD5684}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NETCore.Applications", "ASP.NETCore.Applications\ASP.NETCore.Applications.csproj", "{35C8FCA7-2DA5-4FCE-AEBF-F392ECBD5684}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -13,6 +13,7 @@
 - microsoft.entityframeworkcore.Tools
 - microsoft.extensions.configuration.fileExtensions
 - microsoft.extensions.configuration.Json
+- microsoft.aspnetcore.identity.entityframeworkcore
 ## Youtube tutorial
 - Video list: https://www.youtube.com/playlist?list=PLRhlTlpDUWsyN_FiVQrDWMtHix_E2A_UD
 - TEDU Course: https://tedu.com.vn/khoa-hoc/lam-du-an-voi-aspnet-core-31-34.html
